@@ -16,5 +16,5 @@ print(im.shape)
 print(im)
 
 plt.imshow(im, cmap='gray')
-plt.axis('off')
+# plt.axis('off') # dit zet simpelweg de x en y as uit.
 plt.show()
