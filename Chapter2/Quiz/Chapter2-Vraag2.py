@@ -16,4 +16,4 @@ im2[210:235, 280:320] = 255 #maak linkeroog wit.
 plt.imshow(im2, cmap='gray') 
 plt.show()
 
-print('test2')
+
