@@ -11,7 +11,7 @@ print(im.shape)
 im = im[np.newaxis,:]
 print(im.shape)
 
-im = np.repeat(im,100,axis=0) # 100 lagen (hoogte)
+im = np.repeat(im,100,axis=0) # 100 kolommen (hoogte)
 print(im.shape)
 print(im)
 
