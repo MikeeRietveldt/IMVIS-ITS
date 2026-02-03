@@ -1,3 +1,7 @@
+# ITS IMVIS
+# Chapter 2
+# Mike Rietveldt -- 20183380
+
 import numpy as np
 import matplotlib.pyplot as plt
 
