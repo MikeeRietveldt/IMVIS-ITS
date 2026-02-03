@@ -5,13 +5,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-im = np.arange(256)
+im = np.arange(256) # 256 rijen (breedte)
 print(im.shape)
 
 im = im[np.newaxis,:]
 print(im.shape)
 
-im = np.repeat(im,100,axis=0)
+im = np.repeat(im,100,axis=0) # 100 lagen (hoogte)
 print(im.shape)
 print(im)
 
