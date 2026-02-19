@@ -1,6 +1,6 @@
 
 # ITS IMVIS
-# Chapter 3 - 
+# Chapter 3 - 2x zoom
 # Mike Rietveldt -- 20183380
 
 import numpy as np
@@ -23,4 +23,5 @@ plt.subplot(121) # Verdeeld het figuur in (1 rij, 2 kolommen, 1e subplot actief.
 plt.imshow(colourImage[:,:,::-1]) # Toon origineel (BGR -> RGB conversie)
 plt.subplot(122) # Selecteert het volgende figuur (1e rij, 2e kolom, 2e subplot actief.)
 plt.imshow(colourImage_resized[:,:,::-1]) # Toon origineel (BGR -> RGB conversie)
+
 plt.show() # laat alles zien
